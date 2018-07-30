@@ -1,0 +1,17 @@
+/* pages/index/index.wxss */
+.container{
+    padding: 20px;
+}
+
+.btns { 
+    padding: 10px 0;
+}
+
+.btns button:nth-child(n+2){
+    margin-left: 10px;
+}
+
+.list{
+    margin-top: 50px;
+}
+

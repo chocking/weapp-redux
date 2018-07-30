@@ -1,0 +1,18 @@
+<!--pages/index/index.wxml-->
+<view class='container'>
+    counterNum : {{counterNum}}
+    <view class='btns'>
+        <button size='mini' bind:tap='onReduce'>-</button>
+        <button size='mini' bind:tap='onAdd'>+</button>
+    </view>
+
+    <view class='list'>
+        <view wx:for="{{persons}}" wx:key="*">{{item}}</view>
+    </view>
+
+    <view class='btns'>
+        <button size='mini' bind:tap='onGetList'>getList</button>
+        <button size='mini' bind:tap='onClear'>clear</button>
+    </view>
+
+</view>
